@@ -22,9 +22,9 @@ var App = React.createClass({
             );
           }.bind(this))}
         </div>
-        <div className='canvas' style={/*
-          code here...
-        */} />
+        <div className='canvas' style={{
+          backgroundColor: this.state.color
+        }} />
       </div>
     );
   }

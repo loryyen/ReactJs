@@ -23,8 +23,8 @@ var MyForm = React.createClass({
         <input
           type='text'
           placeholder='您的大名'
-          //code here...
-
+          value={this.state.name}
+          onChange={this.setName}
           />
         <br/>
 
@@ -33,8 +33,8 @@ var MyForm = React.createClass({
         <input
           type='text'
           placeholder='您的電話'
-          //code here...
-
+          defaultValue='0987654321'
+          ref='tel'
           />
         <br/>
 
