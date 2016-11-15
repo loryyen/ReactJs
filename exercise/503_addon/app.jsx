@@ -42,7 +42,7 @@ var Nav = React.createClass({
   }
 });
 
-
+// code here...
 var CSSTransitionGroup = React.addons.CSSTransitionGroup;
 var App = React.createClass({
   getInitialState: function() {
@@ -60,9 +60,10 @@ var App = React.createClass({
   setCurrentId:function(id){
     this.setState({currentId:id});
   },
+  // code here...
   addItem:function(title){
-    var cart = this.state.cart.concat(title);
-    this.setState({cart:cart});
+     var newItems=this.state.cart.concat({id:this.state.items.length+1,title:title});
+     this.setState({cart:newItems});
   },
   render: function() {
     return (
@@ -94,15 +95,16 @@ var App = React.createClass({
           }.bind(this))}
         </div>
 
-        <div className='cart-container'>
-          <CSSTransitionGroup transitionName='example'>
-            {this.state.cart.map(function(title, idx){
-              return (
-                <div key={'cart'+idx} className='cart-item'>
-                  {title}
-                </div>
-              );
-            }.bind(this))}
+        {/* code here... */}
+        <div className="cart-container">
+          <CSSTransitionGroup transitionName="example">
+          {this.state.cart.map(function(title,idx){
+            return (
+              <div key={"cart"+idx} className="cart-item">
+                {title}
+              </div>
+            );
+          }.bind(this))}
           </CSSTransitionGroup>
         </div>
 

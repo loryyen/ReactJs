@@ -3,21 +3,28 @@ require('./portrait.scss');
 var cx = require('utils/cx');
 
 var Portrait = React.createClass({
-  getInitialState: function() {
-    return {show: false};
+  // code here...
+  getInitialState:function(){
+    return {show:false};
   },
-  componentDidMount: function() {
-    var node = $(ReactDOM.findDOMNode(this));
-    this.bottom = node.offset().top + node.height();
+
+
+  componentDidMount:function(){
+    var node=$(ReactDOM.findDOMNode(this));
+    this.bottom=node.offset().top+node.height();
   },
-  componentWillReceiveProps: function(nextProps) {
-    if(nextProps.position > this.bottom){
+
+
+componentWillReceiveProps:function(nextProps){
+    if(nextProps.position>this.bottom){
       this.setState({show:true});
     }
-  },
-  shouldComponentUpdate: function(nextProps, nextState) {
-    return nextState.show !== this.state.show;
-  },
+},
+
+shouldComponentUpdate:function(nextProps,nextState){
+  return nextState.show!==this.state.show;
+},
+
   render:function(){
     var className = cx({
       'portrait': true,

@@ -28,7 +28,7 @@ var App = React.createClass({
   render: function() {
     return (
       <div className='app'>
-        <Content content={this.state.pages[this.state.currentPage].content}/>
+        <Content content={this.state.pages[this.state.currentPage].content} currentPage={this.state.currentPage}/>
         <Menu setPage={this.setPage} {...this.state}/>
       </div>
     );

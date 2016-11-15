@@ -6,47 +6,46 @@ var Profile = require('./Profile.jsx');
 var loadingImg = require('img/fb-loading.gif');
 
 var App = React.createClass({
-  getInitialState: function() {
-    return {
-      loading: true,
-      connected: false
-    };
+  // code here...
+  // appid: 1743219825918021
+  getInitialState:function(){
+      return {
+        loading:true,
+        connected:false
+      };
   },
-  componentWillMount: function() {
+  componentWillMount:function(){
     FB.init({
-      appId  : '1743219825918021',
-      xfbml  : false,
-      version: 'v2.6'
+      appId:"1743219825918021",
+      xfbml:false,
+      version:"v2.6"
     });
   },
-  componentDidMount: function() {
+  componentDidMount:function(){
     FB.getLoginStatus(this.loginStatus);
   },
-
   login:function(){
-    this.setState({login:true});
+    this.setState({loading:true});
     FB.login(this.loginStatus);
   },
-  loginStatus:function(rs){
-    if(rs.status==='connected'){
-      this.setState({loading:false, connected:true});
+  loginStatus:function(res){
+    if(res.status === "connected"){
+      this.setState({loading:false,connected:true});
     }else{
-      this.setState({loading:false, connected:false});
+      this.setState({loading:false,connected:false});
     }
   },
   render:function(){
-
+    // code here...
     var content;
     if(this.state.loading){
-      content = <img className='loading' src={loadingImg}/>
-
-    }else if(this.state.connected){
-      content = <Profile/>
-
-    }else{
-      content = <Login login={this.login}/>
+      content=<img className="loading" src={loadingImg}></img>
+    }else if (this.state.connected) {
+      content=<Profile/>
     }
-
+    else{
+      content=<Login login={this.login}></Login>
+    }
     return(
       <div className='app'>
         {content}

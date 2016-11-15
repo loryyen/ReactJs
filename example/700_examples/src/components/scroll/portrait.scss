@@ -1,0 +1,11 @@
+.portrait{
+  width:  480px;
+  height: 480px;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity .3s, transform .3s;
+  &.show{
+    opacity: 1;
+    transform: none;
+  }
+}

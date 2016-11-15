@@ -1,6 +1,9 @@
 function cx(obj){
   return Object.keys(obj).filter(function(key){
-    return obj[key];
+    if(obj[key]){
+      return key;
+    }
+    //return obj[key];
   }).join(' ');
 }
 

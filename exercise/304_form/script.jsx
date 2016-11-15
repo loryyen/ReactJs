@@ -33,8 +33,8 @@ var MyForm = React.createClass({
         <input
           type='text'
           placeholder='您的電話'
-          defaultValue='0987654321'
-          ref='tel'
+          defaultValue="0912345678"
+          ref="tel"
           />
         <br/>
 
