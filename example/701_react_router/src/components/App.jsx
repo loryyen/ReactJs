@@ -17,6 +17,7 @@ var App = React.createClass({
   },
   componentWillMount: function() {
     this.setPageByPath(this.props.location.pathname);
+    this.setState({page:pages});
   },
   componentWillReceiveProps: function(nextProps) {
     this.setPageByPath(nextProps.location.pathname);
