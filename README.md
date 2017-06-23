@@ -20,3 +20,35 @@ https://atom.io/packages/atom-live-server
 
 # PHP
 https://dotblogs.com.tw/ianchiu28/2017/06/15/180900
+
+
+--------------
+Sass evnoriment setup in VS steps:
+
+1.install Ruby
+  http://rubyinstaller.org/downloads/
+  
+2. install MINDSCAPE
+  https://visualstudiogallery.msdn.microsoft.com/2b96d16a-c986-4501-8f97-8008f9db141a
+
+3. Go to C:\Users\{UserName}\AppData\Local\Temp\Mindscape\WebWorkbench\Ruby193\Ruby193
+
+4. Copy all (lib and bin folder) under above mentioned path
+
+5. Create a folder named "Ruby" under C:\ like: C:\Ruby and paste the bin and lib into it.
+
+6.  Open VS -> TOOLS-> Options -> Web Workbench -> Ruby installation path -> " C:\Ruby\bin"
+
+reference: http://www.mindscapehq.com/forums/thread/1238937
+
+------
+Sass study list:
+
+1.SUSY
+
+2.BEM - css design pattern
+
+3.Pure.css 
+http://purecss.io/
+
+4.https://github.com/doggy8088/CSS-Guidelines
