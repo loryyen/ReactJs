@@ -60,6 +60,8 @@ Noted:VS Tools -> Option ->Project and Solution ->External Web Tools ==>this ord
 https://www.davepaquette.com/archive/2014/10/08/how-to-use-gulp-in-visual-studio.aspx
 https://www.mikesdotnetting.com/article/283/asp-net-5-managing-client-side-dependencies-with-npm-bower-and-gulp
 
+Glup file encodeing maight influence the npm can recongnize it or not.
+https://blog.miniasp.com/post/2015/02/21/solving-asp-net-5-npm-package-json-utf8-with-bom-problem.aspx
 
 -----
 Nodejs Anywhere
