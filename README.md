@@ -65,4 +65,4 @@ https://www.mikesdotnetting.com/article/283/asp-net-5-managing-client-side-depen
 Nodejs Anywhere
 Static run html pages.
 https://www.npmjs.com/package/anywhere
-http://leequangang.github.io/tech/2013/10/25/node.js_Linux_web.html
+https://segmentfault.com/a/1190000003960609
