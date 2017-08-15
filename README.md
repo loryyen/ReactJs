@@ -59,3 +59,10 @@ Noted:VS Tools -> Option ->Project and Solution ->External Web Tools ==>this ord
 
 https://www.davepaquette.com/archive/2014/10/08/how-to-use-gulp-in-visual-studio.aspx
 https://www.mikesdotnetting.com/article/283/asp-net-5-managing-client-side-dependencies-with-npm-bower-and-gulp
+
+
+-----
+Nodejs Anywhere
+Static run html pages.
+https://www.npmjs.com/package/anywhere
+http://leequangang.github.io/tech/2013/10/25/node.js_Linux_web.html
