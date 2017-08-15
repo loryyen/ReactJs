@@ -52,3 +52,10 @@ Sass study list:
 http://purecss.io/
 
 4.https://github.com/doggy8088/CSS-Guidelines
+
+----
+Add Glup into VisualStudio
+Noted:VS Tools -> Option ->Project and Solution ->External Web Tools ==>this order of external might havs influence of Gulp.
+
+https://www.davepaquette.com/archive/2014/10/08/how-to-use-gulp-in-visual-studio.aspx
+https://www.mikesdotnetting.com/article/283/asp-net-5-managing-client-side-dependencies-with-npm-bower-and-gulp
