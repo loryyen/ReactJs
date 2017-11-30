@@ -68,3 +68,14 @@ Nodejs Anywhere
 Static run html pages.
 https://www.npmjs.com/package/anywhere
 https://segmentfault.com/a/1190000003960609
+
+------
+Angular5
+https://gist.github.com/doggy8088/1447a4797e5911248f19d10507b6f1f5
+
+------
+不同的IE視窗共用相同的SessionID
+http://blog.darkthread.net/blogs/darkthreadtw/archive/2009/04/08/ie8-nomerge.aspx
+http://blog.darkthread.net/blogs/darkthreadtw/archive/2009/07/05/one-session-each-tab-in-ie.aspx
+https://blog.miniasp.com/post/2009/04/09/Command-line-switches-for-Internet-Explorer.aspx
+https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
