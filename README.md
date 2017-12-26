@@ -79,3 +79,8 @@ http://blog.darkthread.net/blogs/darkthreadtw/archive/2009/04/08/ie8-nomerge.asp
 http://blog.darkthread.net/blogs/darkthreadtw/archive/2009/07/05/one-session-each-tab-in-ie.aspx
 https://blog.miniasp.com/post/2009/04/09/Command-line-switches-for-Internet-Explorer.aspx
 https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
+
+
+#静态资源缓存控制编译工具
+https://github.com/fouber/static-resource-digest-project
+http://fis.baidu.com/fis3/index.html
