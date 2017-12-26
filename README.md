@@ -84,3 +84,4 @@ https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
 #静态资源缓存控制编译工具
 https://github.com/fouber/static-resource-digest-project
 http://fis.baidu.com/fis3/index.html
+https://www.zhihu.com/question/20790576/answer/32602154
