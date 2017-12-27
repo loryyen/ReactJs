@@ -80,8 +80,28 @@ http://blog.darkthread.net/blogs/darkthreadtw/archive/2009/07/05/one-session-eac
 https://blog.miniasp.com/post/2009/04/09/Command-line-switches-for-Internet-Explorer.aspx
 https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
 
-
-#静态资源缓存控制编译工具
+---------
+静态资源缓存控制编译工具
 https://github.com/fouber/static-resource-digest-project
 http://fis.baidu.com/fis3/index.html
 https://www.zhihu.com/question/20790576/answer/32602154
+
+发布项目
+不加 -d 参数默认被发布到内置 Web Server的根目录下，当启动服务时访问此目录下的资源。
+fis release
+
+fis release -d ../output
+
+启动测试
+fis server start
+fis server start --type node
+
+
+文件监听
+为了方便开发，FIS3 支持文件监听，当启动文件监听时，修改文件会构建发布。而且其编译是增量的，编译花费时间少。
+FIS3 通过对 release 命令添加 -w 或者 —watch 参数启动文件监听功能。
+fis3 release -w
+
+浏览器自动刷新
+文件修改自动构建发布后，如果浏览器能自动刷新，这是一个非常好的开发体验。FIS3 支持浏览器自动刷新功能，只需要给 release 命令添加 -L 参数，通常 -w 和 -L 一起使用。
+fis3 release -wL
