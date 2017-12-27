@@ -81,10 +81,11 @@ https://blog.miniasp.com/post/2009/04/09/Command-line-switches-for-Internet-Expl
 https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
 
 ---------
-静态资源缓存控制编译工具
+# 静态资源缓存控制编译工具
 https://github.com/fouber/static-resource-digest-project
 http://fis.baidu.com/fis3/index.html
 https://www.zhihu.com/question/20790576/answer/32602154
+https://goo.gl/9BZxbH
 
 发布项目
 不加 -d 参数默认被发布到内置 Web Server的根目录下，当启动服务时访问此目录下的资源。
