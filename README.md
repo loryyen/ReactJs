@@ -124,5 +124,5 @@ https://www.rapidtables.com/web/color/RGB_Color.html
 Del with ES3
 https://developer.telerik.com/featured/using-javascript-next-features-es3-enterprise-world/
 
-
-
+切分session
+https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
