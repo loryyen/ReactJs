@@ -110,4 +110,19 @@ fis3 release -w
 文件修改自动构建发布后，如果浏览器能自动刷新，这是一个非常好的开发体验。FIS3 支持浏览器自动刷新功能，只需要给 release 命令添加 -L 参数，通常 -w 和 -L 一起使用。
 fis3 release -wL
 
+----------------
+Others
+Hacks:
+http://www.jb51.net/css/226888.html
+
+Javacript float:
+https://github.com/camsong/blog/issues/9
+
+color convert tool:
+https://www.rapidtables.com/web/color/RGB_Color.html
+
+Del with ES3
+https://developer.telerik.com/featured/using-javascript-next-features-es3-enterprise-world/
+
+
 
