@@ -111,18 +111,19 @@ fis3 release -w
 fis3 release -wL
 
 ----------------
-Others
-Hacks:
+#Others
+#Hacks:
 http://www.jb51.net/css/226888.html
+https://github.com/saadeghi/browser-hack-sass-mixins
 
-Javacript float:
+#Javacript float:
 https://github.com/camsong/blog/issues/9
 
-color convert tool:
+#color convert tool:
 https://www.rapidtables.com/web/color/RGB_Color.html
 
-Del with ES3
+#Del with ES3
 https://developer.telerik.com/featured/using-javascript-next-features-es3-enterprise-world/
 
-切分session
+#切分session
 https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
