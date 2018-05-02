@@ -127,3 +127,20 @@ https://developer.telerik.com/featured/using-javascript-next-features-es3-enterp
 
 #切分session
 https://dotblogs.com.tw/jimmyyu/archive/2009/11/21/12097.aspx
+
+#div+CSS瀏覽器兼容問題整理(IE6.0、IE7.0 ,ie8 , FireFox...)
+http://registerboy.pixnet.net/blog/post/24764866
+
+#IE8 下访问webpack.UglifyJsPlugin 压缩的代码出错
+https://github.com/SamHwang1990/blog/issues/6
+
+#Webpack-IE低版本兼容指南
+https://github.com/zuojj/fedlab/issues/5
+
+#React+Redux+router兼容ie8 修改！！！！
+http://www.cnblogs.com/godghdai/p/7690085.html
+
+#ES各版本支援度
+http://kangax.github.io/compat-table/es6/
+
+
