@@ -143,4 +143,7 @@ http://www.cnblogs.com/godghdai/p/7690085.html
 #ES各版本支援度
 http://kangax.github.io/compat-table/es6/
 
+#JavaScript 正規表示式(Regular Expression)資料整理
+https://xyz.cinc.biz/2013/11/javascript-regular-expression.html
+
 
